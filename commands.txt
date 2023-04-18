@@ -1,0 +1,8 @@
+django-admin startproject <name> . -> to create a django project
+python3 manage.py startapp <name> -> to create a new app
+
+
+to check before migration:
+python3 manage.py makemigrations --dry-run --verbosity 3
+python3 manage.py migrate -> to make migrations
+
